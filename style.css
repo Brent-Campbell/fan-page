@@ -1,18 +1,103 @@
-body { background-color: #663399; background-image: linear-gradient(to bottom, #9933cc, #663399); color: #ffffff; 
-    font-family: Tahoma, Helvetica, sans-serif; 
-    margin: 30px 25px; padding: 25px 40px 10px 40px;
- }
-h1 {background-color: #ffffff; border-radius: 25px; margin: 0 200px 0 200px; text-shadow: 3px 3px 3px #666; box-shadow: 5px 5px 5px #1e1e1e; text-transform: uppercase; 
+body {
+    margin: 0 0 0 0;
+    background-color: #663399;
+    color: #000000;
+    font-family: Tahoma, Helvetica, sans-serif;
 }
-h2 { background-color: #ffff00; color: #000000; text-align: center; font-family: Georgia, Palatino, serif; 
+
+main {
+    background-color: #663399;
+    background-image: linear-gradient(to bottom, #9933cc, #663399);
+    color: #ffffff;
+    margin: 65px 5px 0 215px;
+    padding: 10px;
+    border-style: double;
+    display: block;
 }
-p { text-indent: 10px; 
+
+header {
+    background-color: #663399;
+    width: 100%;
+    position: fixed;
 }
-nav { font-weight: bold; font-size: 1.30em; 
+
+h1 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #ffffff;
+    text-shadow: 3px 3px 3px #666;
+    box-shadow: 5px 5px 5px #1e1e1e;
+    text-transform: uppercase;
 }
-footer { font-size: .60em; font-style: italic;
+
+h2 {
+    background-color: #ffff00;
+    color: #000000;
+    text-align: center;
+    font-family: Georgia, Palatino, serif;
 }
-#content{ color: #000000; text-align: center; 
+
+p {
+    text-indent: 10px;
 }
-.feature { color: #ffff00; list-style-type: upper-alpha; 
+
+nav {
+    margin-top: 80px;
+    float: left;
+    width: 200px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.30em;
+    position: fixed;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    background-color: #663399;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+nav a:link {
+    color: #ffffff;
+}
+
+nav a:visited {
+    color: #000000;
+}
+
+nav a:hover {
+    color: #663399;
+    background-color: #ffff00;
+}
+
+footer {
+    background-color: #663399;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+}
+
+#content {
+    color: #000000;
+    text-align: center;
+}
+
+.feature {
+    color: #ffff00;
+    list-style-type: upper-alpha;
+}
+
+#wrapper {
+    background-color: #663399;
+    color: #000000;
+    font-family: Tahoma, Helvetica, sans-serif;
 }
